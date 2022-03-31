@@ -2,6 +2,8 @@
 
 Console.WriteLine("Benvenuto");
 Console.WriteLine("Ecco i nostri mesi dell'anno:");
+
+//stampo mesi dell'anno
 Console.WriteLine("- Gennaio");
 Console.WriteLine("- Febbraio");
 Console.WriteLine("- Marzo");
@@ -15,8 +17,10 @@ Console.WriteLine("- Ottobre");
 Console.WriteLine("- Novembre");
 Console.WriteLine("- Dicembre");
 
+//dichiaro variabile per il mese preferito
 string mesePreferito;
 
+//faccio scegliere e in seguito stampo il mese preferito dell'utente
 Console.Write("Inserisci il tuo mese preferito: ");
 mesePreferito = Console.ReadLine();
 
